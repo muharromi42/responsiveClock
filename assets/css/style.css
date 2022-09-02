@@ -1,0 +1,13 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* variable css */
+:root {
+    /* colors */
+    --hue-color:240; /*blue 240 - green 154 - orange 25*/
+
+    --first-color: hsl(var(--hue-color),53%, 49%);
+    --title-color: hsl(var(--hue-color),53%, 15%);
+    --text-color: hsl(var(--hue-color), 12%, 35%);
+
+}
