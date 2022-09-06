@@ -66,5 +66,13 @@ textminutes.innerHTML = mm
 
 // show AM PM
 textAmPm.innerHTML = ampm
+
+// get the month of year and show it
+let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+// show the day, month and year
+dateDay.innerHTML = day
+dateMonth.innerHTML = `${months[month]},`
+dateYear.innerHTML = year
 }
 setInterval(clockText, 1000) //1000 = 1s
