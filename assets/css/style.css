@@ -268,3 +268,16 @@ a{
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
+
+/* media queries */
+/* for large devices */
+@media screen and (min-width: 968px){
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .clock__logo{
+        margin-bottom: 3rem;
+    }
+}
